@@ -17,7 +17,7 @@ public class Challenge1test {
 
     @Test
     public void testingHexToByteArrayFunctionWorksCorrectly() {
-        String input = "7F0B";
+        String input = "7f0b";
         byte[] expectedOutput = {127, 11};
         assertArrayEquals(expectedOutput, DataConverter.hexToByteArray(input));
     }
