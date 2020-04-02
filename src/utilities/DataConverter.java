@@ -55,6 +55,8 @@ public class DataConverter {
         for (int i=0; i<input.length; i++) {
             // & is a bitwise operator and compares each operand bitwise (vs. && operates on boolean operands)
             int c = input[i] & 0xFF;
+            // Unsigned right shift >>> will always put a 0 in the left most bit
+            // Signed right shift >> will put a 1 or a 0 depending on what the sign of it is
             hexChars[i*2] = HEXARRAY[c >>> 4];
             hexChars[i*2 + 1] = HEXARRAY[c & 0x0F];
         }
