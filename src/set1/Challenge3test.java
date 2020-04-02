@@ -11,7 +11,8 @@ import java.nio.charset.StandardCharsets;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
-    Set 1 Challenge 3:
+    Set 1 Challenge 3: Single-byte XOR cipher
+
     Message has been XOR'd against a single character. Find the key, decrypt the message.
 
     Tip: Devise some method for "scoring" a piece of English plaintext.

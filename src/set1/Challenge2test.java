@@ -7,7 +7,8 @@ import utilities.DataEncoder;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
-    Set 1 Challenge 2:
+    Set 1 Challenge 2: Fixed XOR
+
     Write a function that takes two equal-length buffers and produces their XOR combination
 
 */

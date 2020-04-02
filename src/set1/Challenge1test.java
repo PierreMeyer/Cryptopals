@@ -7,8 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
-    Set 1 Challenge 1:
-    Convert Hex to Base64
+    Set 1 Challenge 1: Convert Hex to Base64
 
     Tip: Always operate on raw bytes, never on encoded strings. Only use hex and base64 for pretty-printing
 
