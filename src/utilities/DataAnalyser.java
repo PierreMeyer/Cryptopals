@@ -45,4 +45,17 @@ public class DataAnalyser {
         return score;
     }
 
+    /**
+     * Returns the humming distance (number of different bits) between two strings already converted to byte arrays
+     * @param   input1 byte array
+     * @param   input2 byte array
+     * @return  humming distance
+     */
+    public static int hummingDistance(byte[] input1, byte[] input2) {
+        int count = 0;
+        for (int i=0 ; i<input1.length ; i++)
+            count += Integer.bitCount(input1[i] ^ input2[i]);
+        return count;
+    }
+
 }

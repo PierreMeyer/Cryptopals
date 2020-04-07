@@ -74,4 +74,15 @@ public class DataConverter {
         return Base64.getEncoder().encodeToString(input);
     }
 
+    /**
+     * Converts a base64 String into a ByteArray
+     * @param   input   Base64 string to process
+     * @return  ByteArray
+     * Final version
+     */
+
+    public static byte[] base64TobyteArray(String input) {
+        return Base64.getDecoder().decode(input);
+    }
+
 }
